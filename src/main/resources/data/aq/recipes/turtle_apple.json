@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cx",
+    "  "
+  ],
+  "key": {
+    "x": {
+      "item": "aq:turtle_ingot"
+    },
+    "c": {
+      "item": "minecraft:apple"
+    }
+  },
+    "result": {
+      "item": "aq:turtle_apple",
+      "count": 1
+    }
+  }

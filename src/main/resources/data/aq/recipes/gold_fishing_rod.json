@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  x",
+    " xq",
+    "x q"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:gold_ingot"
+    },
+    "q": {
+    "item": "minecraft:string"
+  }
+  },
+
+    "result": {
+      "item": "aq:gold_fishing_rod",
+      "count": 1
+    }
+  }
