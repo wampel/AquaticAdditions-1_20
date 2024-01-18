@@ -19,8 +19,6 @@ import net.minecraftforge.registries.RegistryObject;
 import net.wampelpampel.aq.block.AQBlocks;
 import net.wampelpampel.aq.item.AQItems;
 import org.slf4j.Logger;
-
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod(AquaticAdditions.MOD_ID)
 public class AquaticAdditions
 {
@@ -95,43 +93,6 @@ public class AquaticAdditions
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        /*
-        if (event.getTabKey() == AQ_TAB.getKey())
-            event.accept(AQItems.TURTLE_INGOT);
-            event.accept(AQItems.DIAMOND_NUGGET);
-            event.accept(AQBlocks.SCUTE_BLOCK);
-            event.accept(AQBlocks.TURTLE_BLOCK);
-
-            //Rods
-            event.accept(AQItems.IRON_FISHING_ROD);
-            event.accept(AQItems.GOLD_FISHING_ROD);
-            event.accept(AQItems.DIAMOND_FISHING_ROD);
-            event.accept(AQItems.NETHERITE_FISHING_ROD);
-
-            //Fish
-            event.accept(AQItems.IRON_FISH);
-            event.accept(AQItems.GOLD_FISH);
-            event.accept(AQItems.DIAMOND_FISH);
-            event.accept(AQItems.GOLDEN_FISH);
-
-            event.accept(AQItems.TURTLE_APPLE);
-            //Armor
-            event.accept(AQItems.VTURTLE_BOOTS);
-            event.accept(AQItems.VTURTLE_LEGGINS);
-            event.accept(AQItems.VTURTLE_CHESTPLATE);
-            event.accept(AQItems.TURTLE_BOOTS);
-            event.accept(AQItems.TURTLE_LEGGINS);
-            event.accept(AQItems.TURTLE_CHESTPLATE);
-            event.accept(AQItems.TURTLE_HELMET);
-
-
-            event.accept(AQItems.TURTLE_AXE);
-            event.accept(AQItems.TURTLE_HOE);
-            event.accept(AQItems.TURTLE_PICKAXE);
-            event.accept(AQItems.TURTLE_SHOVEL);
-            event.accept(AQItems.TURTLE_SWORD);
-            *
-         */
     }
 
     @SubscribeEvent

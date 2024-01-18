@@ -20,17 +20,13 @@ public enum AQArmorMaterials implements ArmorMaterial {
         p_266655_.put(ArmorItem.Type.LEGGINGS, 6);
         p_266655_.put(ArmorItem.Type.CHESTPLATE, 8);
         p_266655_.put(ArmorItem.Type.HELMET, 3);
-    }), 19, SoundEvents.ARMOR_EQUIP_NETHERITE, 4.0F, 0.3F, () -> {
-        return Ingredient.of(AQItems.TURTLE_INGOT.get());
-    }),
+    }), 19, SoundEvents.ARMOR_EQUIP_NETHERITE, 4.0F, 0.3F, () -> Ingredient.of(AQItems.TURTLE_INGOT.get())),
     VTURTLE("aq:vturtle", 37, Util.make(new EnumMap<>(ArmorItem.Type.class), (p_266655_) -> {
         p_266655_.put(ArmorItem.Type.BOOTS, 2);
         p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
         p_266655_.put(ArmorItem.Type.CHESTPLATE, 6);
         p_266655_.put(ArmorItem.Type.HELMET, 0);
-    }), 19, SoundEvents.ARMOR_EQUIP_TURTLE, 0F, 0F, () -> {
-        return Ingredient.of(Items.SCUTE);
-    });
+    }), 19, SoundEvents.ARMOR_EQUIP_TURTLE, 0F, 0F, () -> Ingredient.of(Items.SCUTE));
 
 
 
